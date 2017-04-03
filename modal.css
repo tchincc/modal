@@ -1,0 +1,8 @@
+.react-modal-wrap { position: fixed; left: 50%; top: 50%; min-width: 200px; border-radius: 4px; z-index: 9999; background-color: #FFF; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.modal-head { line-height: 44px; }
+.modal-body { text-align: center; padding: 15px 0 12px; }
+.modal-foot { box-shadow: 0 1px 0 0 #ddd inset; overflow: hidden; }
+.modal-button { text-align: center; color: #099FDE; padding: 5px; }
+.modal-button-l, .modal-button-r { float: left; width: 50%; }
+.modal-button-r { box-shadow: 1px 0 0 0 #ddd inset; }
+.modal-mask { position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9998; background-color: rgba(0,0,0,.6); }
